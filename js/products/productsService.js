@@ -1,3 +1,5 @@
+var app = anguar.module('miniRouting');
+
 app.service('productService', function () {
   this.shoeData = [
     {
